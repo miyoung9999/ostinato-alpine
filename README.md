@@ -12,7 +12,7 @@ OStinato
 
 
 Deployment 
-1. CLone the repository.
+1. Clone the repository.
 2. Build the container - docker build -t ostinato-alpine .
 3. Add the appliacnce to GNS3 - console is VNC.
 
