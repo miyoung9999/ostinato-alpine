@@ -8,8 +8,7 @@ ENV RESOLUTION 1920x1080x24
 
 RUN echo "http://dl-cdn.alpinelinux.org/alpine/edge/main" >> /etc/apk/repositories \
     && echo "http://dl-cdn.alpinelinux.org/alpine/edge/community" >> /etc/apk/repositories \
-    && echo "http://dl-cdn.alpinelinux.org/alpine/edge/testing" >> /etc/apk/repositories \
-#    && apk update \  
+    && echo "http://dl-cdn.alpinelinux.org/alpine/edge/testing" >> /etc/apk/repositories \ 
     && apk add --no-cache libprotobuf tshark wireshark ostinato ostinato-drone ostinato-gui xterm wget font-adobe-100dpi mesa-dri-swrast ca-certificates curl openssl sudo xvfb x11vnc xfce4 faenza-icon-theme bash \
     && addgroup gns3 \
     && adduser -h /home/gns3 -s /bin/bash -S -D -G gns3 gns3 && echo -e "gns3\ngns3" | passwd gns3 \
