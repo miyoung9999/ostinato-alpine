@@ -8,7 +8,7 @@ This is a Dockerbuild file to create a an Alpine based container with the follow
 Alpine Linux
 Xterm
 Wireshark
-OStinato
+Ostinato
 
 
 Deployment 
