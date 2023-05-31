@@ -23,3 +23,6 @@ ENV RESOLUTION 1920x1080x24
 Thanks to 
 
 Jan Kuri for docker container which this is based on (jkuri/alpine-xfce4)
+
+
+Note : This is now integrated into GNS3 - Select it from Guest catergory
